@@ -19,6 +19,11 @@ int main(void)
         for (int j = 0; j < TAM_J; j++)
         {
             printf("%03d ", array[i][j]);
+            if (j == 2)
+            {
+                printf("\b");
+            }
+            
         }
         printf("\n");
     }
